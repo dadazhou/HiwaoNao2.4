@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HiwaoNao2.4</string>
+    <string name="text">\u3000\u3000杭州赫瓦机器人技术开发有限公司目前是法国阿尔德巴兰智能仿人机器人授权代理经销商，专业提供NAO仿人机器人销售及技术服务。\n \u3000\u3000赫瓦机器人秉持合作双赢的原则，诚交天下精英。公司以“诚实、守信、开拓、创新”为理念，坚持技术创新，在各个行业与卓越的行业专家合作，为您提供最理想的解决方案。\n \u3000\u3000公司长期与浙江工业大学、杭州电子科技大学等大专院校进行产学研合作，拥有核心的技术团队和先进的系统服务理念，致力于工业机器人的技术集成及仿人智能机器人的二次研发工作。</string>
+    <string name="title">赫瓦—Nao机器人控制平台</string>
+
+    <string name="tab_menu_connect">连接</string>
+    <string name="tab_menu_function">功能</string>
+    <string name="tab_menu_about">关于</string>
+    <string name="tab_menu_setting">设置</string>
+
+</resources>

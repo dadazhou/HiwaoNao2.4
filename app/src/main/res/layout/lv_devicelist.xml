@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/serch_device_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/array_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点名"
+        />
+    <ImageView
+        android:id="@+id/array_image"
+        android:layout_toRightOf="@+id/array_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:padding="2dip" />
+    <TextView
+        android:id="@+id/array_ip"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/array_image"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="15dip" />
+    <CheckBox
+        android:id="@+id/item_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right" />
+
+</LinearLayout>
